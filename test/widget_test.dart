@@ -81,6 +81,16 @@ void main() {
   var n = hitungnilai2(mapel1: 50, mapel2: 2);
   print(n);
   hitungnilai3(100, 79);
+
+  //final keyword => imutable(tidak bisa dirubah)
+  //const  final
+  //const
+  //const String mahasiswa = "beben";
+  //final
+  final String mahasiswafk;
+
+  mahasiswafk = "beben";
+  print(mahasiswafk);
 }
 
 //function

@@ -91,6 +91,18 @@ void main() {
 
   mahasiswafk = "beben";
   print(mahasiswafk);
+
+  //null safety ( ? ! late )
+  // ? digunakan untuk tipe data boleh null/kosong
+  String? jurusanns;
+  jurusanns = "Teknik Informatika";
+  // ! memaksa untuk dijalankan/ yakin ada datanya
+  print(jurusanns!.length);
+  //late untuk diisi nanti
+  late String prodi;
+  prodi = "TI";
+  prodi = "Teknik Informatika";
+  print(prodi);
 }
 
 //function

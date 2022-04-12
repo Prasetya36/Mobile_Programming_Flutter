@@ -50,6 +50,7 @@ void main() {
   print(cowok.jk);
   print(cowok.kecepatan.toString() + "km/jam");
 
+  print("");
   print("Tumbuhan");
   print("--------");
   var pohon1 = Tumbuhan(jenis: "Mangga");
